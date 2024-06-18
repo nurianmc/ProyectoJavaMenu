@@ -1,0 +1,426 @@
+
+/*CONTACTO*/
+
+header img {
+    width: 234px;
+    height: 129px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: flex;
+    font-family: "Robotoregular"; 
+}
+
+.nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-right: 60px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.inicio {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    gap: 20px; 
+} 
+
+.inicio a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Robotoregular"; 
+
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+} 
+
+ .contenedor ul li {
+    display: flex;
+    list-style: none;
+}  
+
+ .contenedor li {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px; 
+    font-family: "Robotoregular"; 
+    color: #000;
+}
+
+h2 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-family: "Robotolight"; 
+}
+
+input {
+    height: 20px;
+    background-color: rgba(148, 148, 148, 0.10);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+label {
+    font-family: "Robotolight"; 
+    font-weight: 400; 
+    font-size: 18px; 
+}
+
+.asistente {
+    width: 489px;
+    height: 21px;
+    font-size: 18px;
+}
+
+textarea {
+    background-color: rgba(148, 148, 148, 0.10);
+    height: 194px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-family: "Robotolight";
+}
+
+.check input {
+    margin-right: 10px; 
+} 
+
+span {
+    text-decoration: underline;
+}
+
+
+.datos {
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.datos label {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.datos input {
+    width: 22px;
+}
+
+.asistentes {
+    color: gray;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton button {
+    background-color: #069697;
+    color: #FFF;
+    width: 175px;
+    height: 36px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px; 
+    font-family: "Robotolight"; 
+    margin-top: 30px;
+    font-weight: 600; 
+    color: #000;
+}
+
+.empresa img, .celebracion img, .escuela img {
+    mask-image: url(../mask/circulo.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    height: 351px; 
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.articulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; 
+}
+
+h4 {
+    font-family: "Robotolight";
+    color: #000000;
+    font-size: 34px;
+    font-weight: 300;   
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bot a {
+    background-color: #069697;
+    color: #FFFFFF;   
+    text-decoration: none;
+    width: 102px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
+
+footer p {
+    color: #FFF;
+}
+
+.primero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Robotolight";
+    margin-top: 40px;
+}
+
+.logos img {
+    width: 45px;
+    height: 44px;
+    filter: invert(100%);
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    gap: 40px;
+    margin-bottom: 20px;
+} 
+
+.primero p {
+    margin-top: 60px;
+} 
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Robotolight";
+}
+
+
+/* MENÚ EMPRESA*/
+
+.menu {
+    font-family: "Robotoregular";
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.uno {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-family: "Robotolight";
+}
+
+.dos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 40px;
+    font-family: "Robotolight";
+}
+
+.tres {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-family: "Robotolight";
+}
+
+.pos, .sen {
+    width: 436px;
+    height: 248px;
+}
+
+.ent, .prim, .sen, .pos, .bebida, .vi {
+    margin-left: 40px;
+    font-family: "Robotolight";
+
+}
+
+.bebida p {
+    width: 325px;
+}
+
+
+/*NUESTROS VALORES*/
+
+/* .carrousel {
+    margin: 0 auto;
+} */
+
+img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* CONTROLES */
+
+.control {
+    position: relative;
+}
+
+a#retroceder, a#avanzar{
+    position: absolute;
+    top: 32vw;/*Viewport Width - relativo al ancho del visor*/
+    
+    /*Ancho y alto de la <a>*/
+    width:4.4vw;/*Viewport Height - relativo al alto del visor*/
+    height:7vw;
+    
+    /*Imagen de fondo de la <a>*/
+    background-image: url(../img/flechas.png);
+    background-size: contain;
+    
+    /*Hace que toda la <a> sea clicable*/
+    display: block;
+    /*Hacemos que no se repita dentro de <a>*/
+    background-repeat: no-repeat;
+    /*Le pedimos que ocupe el máximo del alto-ancho de <a> y que quede "contenida"*/
+    background-size: contain;
+}
+
+a#retroceder{
+    left:10px;
+}
+
+a#avanzar{
+    transform:rotate(180deg);
+    /*Giramos 180 grados*/
+    right:10px;
+}
+
+
+/* .foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}   
+
+.foto img {
+    width: 100%;
+}  */
+
+
+
+.valores {
+    font-family: "Robotoregular";
+    display: flex;
+    justify-content: center;
+} 
+
+.profesional {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    font-size: 48px; 
+    font-family: "Robotolight";
+} 
+
+.pro p {
+    width: 460px;
+    height: 90px;
+    font-size: 18px; 
+    font-family: "Robotolight";
+    margin-left: 40px;
+} 
+
+.com p {
+    width: 457px; 
+    font-size: 18px; 
+    font-weight: 400; 
+    font-family: "Robotolight";
+    display: flex;
+    justify-content: end;
+}
+
+.but {
+    margin-left: 40px;
+}
+
+.buton {
+    margin-top: 20px;
+}
+
+.contactar {
+    background-color: #069697;
+    color: white;
+} 
+
+.valoresimg {
+    margin-bottom: 20px;
+    margin-right: 20px;
+} 
+
+.one {
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.fogones img {
+    margin-left: 20px;
+    margin-top: 20px;
+}   

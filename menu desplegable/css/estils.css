@@ -1,0 +1,44 @@
+/*RESET BESTIA*/
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+}
+
+.logo {
+    height: 120px;
+}
+
+#boton {
+    width: 40px;
+}
+
+#navegacion {
+    display: none;
+}
+
+#navegacion ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+#navegacion ul li {
+    list-style: none;
+    width: 100%;
+}
+
+#navegacion a {
+    padding: 20px;
+    width: 100%;
+    display: block;
+}
